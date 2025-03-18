@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-android-shortcuts",
-  "version": "7.0.0",
+  "name": "capacitor-android-shortcuts-tlc",
+  "version": "1.0.0",
   "description": "Add shortcuts in Android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NePheus/capacitor-android-shortcuts.git"
+    "url": "git+https://github.com/ashish-mahour/capacitor-android-shortcuts.git"
   },
   "bugs": {
-    "url": "https://github.com/NePheus/capacitor-android-shortcuts/issues"
+    "url": "https://github.com/ashish-mahour/capacitor-android-shortcuts/issues"
   },
   "keywords": [
     "capacitor",
@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "verify": "npm run verify:android && npm run verify:web",
-    "verify:android": "cd android && ./gradlew clean build test && cd ..",
+    "verify:android": "cd android && ./android/gradlew clean build test && cd ..",
     "verify:web": "npm run build",
     "lint": "npm run eslint && npm run prettier -- --check",
     "fmt": "npm run eslint -- --fix && npm run prettier -- --write",
